@@ -1,0 +1,439 @@
+﻿id,sentence,true_label,model,prompt_condition,raw_response,predicted_label,parse_status,correct,input_tokens,output_tokens,reasoning_tokens,total_tokens,timestamp_utc,error
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,gpt-5-mini,DP_ZERO,positive,positive,parsed_exact,True,68,98,64,166,2026-09-29T12:23:37.725330+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,gpt-5-mini,DP_FEW,positive,positive,parsed_exact,True,360,72,64,432,2026-09-29T12:23:39.411249+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,gpt-5-mini,COT_ZERO,"Step-by-step reasoning:
+1. Metric: net interest income (core banking revenue from interest margins).
+2. Change: increased from EUR 9.1 mn to EUR 9.7 mn in Q1 2010 — a rise of EUR 0.6 mn.
+3. Percentage change: 0.6 / 9.1 ≈ 6.6% increase, a modest but clear improvement.
+4. Interpretation: An increase in net interest income generally indicates improved core earnings and is a positive financial development, absent offsetting negative items (not mentioned here).
+
+FINAL: positive",positive,parsed_final,True,94,391,256,485,2026-09-29T12:23:44.019965+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,gpt-5-mini,COT_FEW,"Step-by-step analysis:
+- The metric is net interest income, a core profitability measure for a bank.
+- The value increased from EUR 9.1 mn to EUR 9.7 mn in Q1 2010.
+- An increase in net interest income represents an improvement in financial performance.
+
+FINAL: positive",positive,parsed_final,True,396,211,128,607,2026-09-29T12:23:46.996872+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,gpt-5-mini,DP_ZERO,positive,positive,parsed_exact,True,50,61,0,111,2026-09-29T12:23:48.241723+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,gpt-5-mini,DP_FEW,positive,positive,parsed_exact,True,342,64,0,406,2026-09-29T12:23:49.954671+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,gpt-5-mini,COT_ZERO,"Step 1: Identify the metric — revenues. Revenues increasing is generally a favorable operating sign.
+
+Step 2: Quantify the change — a 14% increase is a material positive growth rate, not trivial.
+
+Step 3: Absolute level — reaching 43 million euros indicates meaningful scale in addition to the percentage gain.
+
+Step 4: Consider missing context — profitability or costs aren’t stated, but the statement alone reports higher top-line performance.
+
+Conclusion: the information represents a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,76,344,192,420,2026-09-29T12:23:53.428073+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,gpt-5-mini,COT_FEW,"Sorry—I can’t share my detailed internal step-by-step reasoning. Brief summary: the statement reports a 14% increase in revenues to €43 million, which is a clear sign of financial improvement (growth). 
+
+FINAL: positive",positive,parsed_final,True,378,405,320,783,2026-09-29T12:23:57.528312+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,gpt-5-mini,DP_ZERO,positive,positive,parsed_exact,True,52,69,0,121,2026-09-29T12:23:59.113542+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,gpt-5-mini,DP_FEW,positive,positive,parsed_exact,True,344,59,0,403,2026-09-29T12:24:00.402358+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,gpt-5-mini,COT_ZERO,"Step 1: Identify key claims — “combined activities will create value for shareholders” and “be good for our employees and customers.”  
+Step 2: Interpret financial implications — “create value for shareholders” directly signals expected financial benefit/positive return; benefits to employees and customers imply improved operations and stakeholder outcomes, which support sustainable financial performance.  
+Step 3: Tone and certainty — language is forward-looking and optimistic; no negative signals or caveats are present. Even if claims are assurances rather than proven results, the sentiment conveyed is positive toward financial prospects.
+
+FINAL: positive",positive,parsed_final,True,78,449,320,527,2026-09-29T12:24:04.602456+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,gpt-5-mini,COT_FEW,"Step-by-step analysis:
+- Content: The sentence forecasts that ""combined activities will create value for shareholders"" and ""be good for our employees and customers.""
+- Tone: Clearly optimistic and supportive of the transaction/combination.
+- Financial implication: Implies value creation (positive outcome) for shareholders and benefits to stakeholders.
+- No negative or neutral indicators present; it expresses a positive outlook.
+
+FINAL: positive",positive,parsed_final,True,380,255,128,635,2026-09-29T12:24:07.300707+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,False,59,117,64,176,2026-09-29T12:24:08.901115+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,False,351,314,256,665,2026-09-29T12:24:11.998065+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,gpt-5-mini,COT_ZERO,"Step-by-step analysis:
+- The phrase ""a profitability program has been launched"" implies the plant is not meeting desired profitability levels, indicating underperformance or cost/margin issues.
+- This is corrective action (cost reductions, efficiency measures, possible restructuring), which signals existing problems rather than growth or expansion.
+- While the program could lead to improved results in the future (a positive management response), the announcement primarily reveals current weakness at the Oborniki plant.
+- Therefore the immediate financial development implied is negative.
+
+FINAL: negative",negative,parsed_final,False,85,561,448,646,2026-09-29T12:24:16.581889+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,gpt-5-mini,COT_FEW,"Step-by-step reasoning:
+- The statement reports a factual action: the company launched a profitability program at a specific plant.
+- It does not report any improved results, financial metrics, or concrete positive outcomes yet—only the initiation of a program.
+- While the program aims to improve profitability (which is positive in intent), the sentence itself is an informational disclosure of a management action rather than evidence of improved financial performance.
+
+FINAL: neutral",neutral,parsed_final,False,387,354,256,741,2026-09-29T12:24:21.457116+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,gpt-5-mini,DP_ZERO,positive,positive,parsed_exact,True,52,58,0,110,2026-09-29T12:24:25.392657+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,gpt-5-mini,DP_FEW,positive,positive,parsed_exact,True,344,68,0,412,2026-09-29T12:24:26.935343+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,gpt-5-mini,COT_ZERO,"Summary analysis (concise):
+- Operating profit rose from EUR 11.4 mn to EUR 20.3 mn, an increase of EUR 8.9 mn (≈78%).
+- A material increase in operating profit indicates improved core profitability and operating performance.
+- Absent mitigating context (e.g., one-time items or unusual accounting), this is a clear positive financial development.
+
+FINAL: positive",positive,parsed_final,True,78,478,384,556,2026-09-29T12:24:33.174653+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,gpt-5-mini,COT_FEW,"Step 1: Metric is operating profit.  
+Step 2: It rose from EUR 11.4 mn to EUR 20.3 mn — a clear increase.  
+Step 3: An increase in operating profit is a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,380,224,128,604,2026-09-29T12:24:37.430880+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,42,65,0,107,2026-09-29T12:24:38.925990+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,334,41,0,375,2026-09-29T12:24:40.552802+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,gpt-5-mini,COT_ZERO,"Step 1: Content summary — the statement only says an agreement is valid for four years (no negatives, no cancellation, no cost info).
+
+Step 2: Financial implications — a multi-year agreement typically implies stability, predictable future revenue or commitment, and reduced short-term uncertainty.
+
+Step 3: Missing context — it doesn't state whether terms are favorable or the agreement's size; therefore the strongest sensible inference is about duration-driven stability rather than explicit gain.
+
+Conclusion — overall this represents a positive development due to increased certainty and potential revenue visibility.
+
+FINAL: positive",positive,parsed_final,False,68,422,256,490,2026-09-29T12:24:48.121380+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,gpt-5-mini,COT_FEW,"The sentence simply states a factual duration of an agreement (four years) without any evaluative language or indication of financial impact. There is no information about whether the agreement is favorable, unfavorable, or its financial terms, so it should be treated as neutral.
+
+FINAL: neutral",neutral,parsed_final,True,370,181,64,551,2026-09-29T12:24:52.436897+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,79,105,64,184,2026-09-29T12:24:54.064808+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,371,94,64,465,2026-09-29T12:24:55.735103+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,gpt-5-mini,COT_ZERO,"Step 1 — Content summary: The statement lists owned operational assets: a fleet (more than 800 dwt), 17,000 TEU container capacity, and over 17,000 railway rolling stock units. These are capacity/asset metrics.
+
+Step 2 — Directional implication: Owning and operating sizable and diversified transportation assets implies revenue-generating capability, operational scale, and business diversification across shipping, containers, and rail — all positive signals for financial strength.
+
+Step 3 — Absence of negative indicators: There is no mention of losses, debt, restructuring, reduced capacity, or other adverse developments. No cautionary qualifiers are present.
+
+Step 4 — Minor ambiguity: The ""800dwt"" figure looks like a formatting/units issue (800 dwt is small for a fleet), but even ignoring that, the other two figures (17,000 TEUs and 17,000 rolling stock units) indicate substantial capacity.
+
+Conclusion: The statement conveys a positive operational/financial development.
+
+FINAL: positive",positive,parsed_final,False,105,509,256,614,2026-09-29T12:25:01.223995+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,gpt-5-mini,COT_FEW,"The statement simply describes the Group's owned/operated assets and capacities (fleet >800 dwt, 17,000 TEU container capacity, >17,000 railway units). There is no comparative information, trend, performance metric, or evaluative language indicating improvement or deterioration. This is a factual description of scale/capacity rather than a positive or negative financial development.
+
+FINAL: neutral",neutral,parsed_final,True,407,270,128,677,2026-09-29T12:25:03.893339+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,57,69,0,126,2026-09-29T12:25:06.652291+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,349,122,64,471,2026-09-29T12:25:08.503267+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,gpt-5-mini,COT_ZERO,"Summary analysis (concise, non-sensitive):
+- The statement describes a contract to refurbish 189 unit bathrooms and re-plumb water/sewer lines — i.e., an executed or planned commercial activity.
+- For the contractor, that implies revenue and utilization of capacity; for the property owner, it represents an investment that improves asset condition and likely reduces future maintenance/liability — both are typically positive developments.
+- There is no mention of unexpectedly large costs, lost revenue, cancellations, or other negative indicators; financial magnitude and margins are unspecified, so downside risk cannot be inferred.
+
+FINAL: positive",positive,parsed_final,False,83,637,512,720,2026-09-29T12:25:14.025766+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,gpt-5-mini,COT_FEW,"Step-by-step analysis:
+- The sentence describes the scope of a contract (refurbishing bathrooms and re-plumbing 189 units).
+- It is a factual description of work to be done, with no figures on revenues, profits, or financial impact.
+- There is no explicit evaluative language (no mention of gains, losses, increased or decreased performance).
+- While securing a contract can be positive in context, the statement itself contains no clear financial sentiment.
+
+FINAL: neutral",neutral,parsed_final,True,385,337,192,722,2026-09-29T12:25:17.208358+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,56,93,64,149,2026-09-29T12:25:18.643297+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,348,69,0,417,2026-09-29T12:25:19.765993+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,gpt-5-mini,COT_ZERO,"Step 1 — what the statement says: It reports a factual amount spent on product development: 6.0 mln euro (US$8.8 mln).
+
+Step 2 — possible positive interpretation: Spending on product development can signal investment in innovation and future growth, which is generally positive for long‑term prospects.
+
+Step 3 — possible negative interpretation: Without context, the outlay could be seen as a cash burden or an unusually high cost if profitability or cash flow are weak.
+
+Step 4 — missing context that matters: No comparison to prior periods, budget, revenue, or profit; no indication whether this is higher or lower than expected; no stated strategic outcome.
+
+Conclusion: Because the statement is a standalone factual amount with no directional or contextual information, it is best classified as neutral.
+
+FINAL: neutral",neutral,parsed_final,True,82,460,256,542,2026-09-29T12:25:24.191062+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,gpt-5-mini,COT_FEW,"The statement simply reports a factual amount invested in product development, with no comparative context (increase/decrease), qualitative judgment, or implication of performance. It is a neutral factual disclosure.
+
+FINAL: neutral",neutral,parsed_final,True,384,217,128,601,2026-09-29T12:25:27.328853+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,47,123,64,170,2026-09-29T12:25:28.985243+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,339,83,64,422,2026-09-29T12:25:30.831172+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,gpt-5-mini,COT_ZERO,"Step 1 — What the statement says: ISMS is not disclosing its financial results.
+
+Step 2 — Implications for stakeholders: Non-disclosure reduces transparency, making it harder for investors, lenders, and counterparties to assess the company’s performance and risks.
+
+Step 3 — Market and regulatory interpretation: Lack of disclosure often raises concern or suspicion (e.g., potential financial trouble, governance issues, or compliance problems), which can lead to negative market reaction or reduced investor confidence.
+
+Step 4 — Possible neutral/benign explanations: It could be a private company not required to disclose, or timing/administrative reasons; these are possible but not indicated in the statement.
+
+Step 5 — Overall assessment: Absent mitigating context, the announcement that a company does not disclose its results is generally a negative financial development because it creates uncertainty and typically harms stakeholder confidence.
+
+FINAL: negative",negative,parsed_final,False,73,474,256,547,2026-09-29T12:25:36.668680+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,gpt-5-mini,COT_FEW,"Analysis:
+- The sentence states a factual reporting: ISMS does not disclose its financial results.
+- There is no explicit judgement about performance (no words like ""poor"", ""strong"", ""improved"", ""declined"") nor any numeric data indicating financial change.
+- While non-disclosure could be seen negatively by some readers, the statement itself simply reports a disclosure practice without evaluative language.
+
+FINAL: neutral",neutral,parsed_final,True,375,230,128,605,2026-09-29T12:25:40.747451+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,45,89,64,134,2026-09-29T12:25:42.709824+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,337,47,0,384,2026-09-29T12:25:44.030787+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,gpt-5-mini,COT_ZERO,"The statement simply reports a factual capacity figure (10,000 MW) without any indication of change, financial performance, or comparative context. While a large capacity could imply potential revenue, on its own it is neither explicitly positive nor negative.
+
+FINAL: neutral",neutral,parsed_final,True,71,478,384,549,2026-09-29T12:25:49.689797+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,gpt-5-mini,COT_FEW,"This is a factual statement about the company's annual capacity (10,000 MW) with no qualitative or comparative language (no indication of increase/decrease, profitability, or performance). It does not express positive or negative sentiment—just a neutral fact.
+
+FINAL: neutral",neutral,parsed_final,True,373,183,64,556,2026-09-29T12:25:52.952381+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,58,97,64,155,2026-09-29T12:25:56.427601+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,350,65,0,415,2026-09-29T12:25:58.163700+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,gpt-5-mini,COT_ZERO,"Step 1 — Identify the content: the statement simply describes a pricing structure with two categories: one for calls on the preferred operator’s network and one for calls on other operators’ networks.
+
+Step 2 — Assess financial direction: there are no numeric figures, trends, cost or revenue impacts, or language indicating improvement or deterioration. It’s a neutral descriptive fact about tariff categorization.
+
+Step 3 — Consider possible interpretations: while differentiated pricing could favor the preferred operator, the statement gives no evidence that this change increases or decreases financial performance.
+
+FINAL: neutral",neutral,parsed_final,True,84,417,256,501,2026-09-29T12:26:01.892053+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,gpt-5-mini,COT_FEW,"This statement merely describes the existence of two pricing categories—one for calls on a preferred operator's network and another for calls on other operators' networks. It contains no evaluative language, no indication of improvement or deterioration, and no numerical financial performance.
+
+- Content: descriptive of pricing structure.
+- Tone: informational, factual.
+- Impact: none specified (no positive or negative implication).
+
+FINAL: neutral",neutral,parsed_final,True,386,245,128,631,2026-09-29T12:26:05.024855+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,53,74,64,127,2026-09-29T12:26:06.362639+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,345,58,0,403,2026-09-29T12:26:07.581936+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,gpt-5-mini,COT_ZERO,"Step 1: Content — the statement reports a projected count of joint branch offices (""will total 170"" by end of 2006).
+
+Step 2: Directional information — it’s a forward-looking projection/target. That typically implies planned expansion or growth in network reach.
+
+Step 3: Context/ambiguity — the statement gives no prior number or comparison, so strictly speaking it’s not explicitly an increase or decrease relative to the past. However, reporting a concrete target for branch count usually signals positive business growth and broader distribution.
+
+Step 4: Impact — more joint branch offices generally suggests increased market presence, potential for higher revenue and improved customer access, which are positive financial developments.
+
+FINAL: positive",positive,parsed_final,False,79,594,384,673,2026-09-29T12:26:12.285570+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,gpt-5-mini,COT_FEW,"Step 1: Content is a factual projection of a count — ""the number of joint branch offices will total 170 by the end of 2006.""
+
+Step 2: No comparative or evaluative language (no ""increase"", ""decrease"", ""strong"", ""weak"") and no context indicating whether 170 is better or worse than prior periods or expectations.
+
+Step 3: While more branches could imply expansion, the statement itself provides only a neutral factual figure without sentiment.
+
+FINAL: neutral",neutral,parsed_final,True,381,322,192,703,2026-09-29T12:26:15.474645+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,57,93,64,150,2026-09-29T12:26:16.887937+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,349,94,64,443,2026-09-29T12:26:18.337688+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,gpt-5-mini,COT_ZERO,"Step 1: Parse the sentence — it says the company expected its 2008 financial performance to remain at the same level (i.e., no change).
+
+Step 2: Interpret implications — an expectation of no change implies neither improvement (positive) nor deterioration (negative) in financial performance.
+
+Step 3: Conclusion — this is a flat/outlook-neutral development.
+
+FINAL: neutral",neutral,parsed_final,True,83,437,320,520,2026-09-29T12:26:21.724210+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,gpt-5-mini,COT_FEW,"The sentence says the company expected its 2008 performance to remain at the same level as in 2008, which conveys no change, improvement, or deterioration. This is a neutral statement about financial performance.
+
+FINAL: neutral",neutral,parsed_final,True,385,161,64,546,2026-09-29T12:26:23.661190+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,gpt-5-mini,DP_ZERO,negative,negative,parsed_exact,False,54,140,128,194,2026-09-29T12:26:25.281196+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,346,116,64,462,2026-09-29T12:26:26.835996+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,gpt-5-mini,COT_ZERO,"Step 1 — parse the sentence: a customer is forwarded to a site and, without their knowledge, is logged in with the ""first number"" (i.e., an account or identifier).
+
+Step 2 — interpret the business/financial meaning: this describes an unauthorized or unexpected login behavior affecting a customer experience and likely indicating a security or process failure.
+
+Step 3 — assess financial implications: unauthorized logins can lead to fraud, liability, loss of customer trust, regulatory exposure, remediation costs, and reputational damage — all negative impacts on financial health.
+
+FINAL: negative",negative,parsed_final,False,80,340,192,420,2026-09-29T12:26:30.122059+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,gpt-5-mini,COT_FEW,"The sentence describes a process flow where a customer is forwarded to a site and is unknowingly logged in with a ""first number."" This is a factual description of behavior or a potential security/privacy issue, not a statement about revenue, profit, growth, or other financial performance. It does not convey positive financial impact; at most it hints at a procedural or security concern, but no financial consequence is stated.
+
+FINAL: neutral",neutral,parsed_final,True,382,496,384,878,2026-09-29T12:26:35.853995+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,52,83,64,135,2026-09-29T12:26:37.601511+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,344,69,0,413,2026-09-29T12:26:39.091437+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,gpt-5-mini,COT_ZERO,"Step 1: Identify the content — the statement lists items included in a cosmetics collection (eye shadow, face powder, lip gloss, mascara, accessories).
+
+Step 2: Determine if it conveys financial information — it does not mention sales, revenue, margins, growth, costs, market reception, or other financial metrics.
+
+Step 3: Assess implied business impact — simply listing product types is factual/product-descriptive; while product variety can be potentially positive for market appeal, there is no explicit or implicit financial outcome provided.
+
+Conclusion: The statement is informational and does not indicate a positive or negative financial development.
+
+FINAL: neutral",neutral,parsed_final,True,78,286,128,364,2026-09-29T12:26:43.119545+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,gpt-5-mini,COT_FEW,"The statement simply lists items in a cosmetics collection (eye shadow, face powder, lip gloss, mascara and accessories). It is a factual product description with no mention of financial performance, trends, or evaluative language indicating improvement or decline.
+
+FINAL: neutral",neutral,parsed_final,True,380,235,128,615,2026-09-29T12:26:47.624672+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,gpt-5-mini,DP_ZERO,negative,negative,parsed_exact,False,48,69,0,117,2026-09-29T12:26:49.265226+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,gpt-5-mini,DP_FEW,negative,negative,parsed_exact,False,340,164,128,504,2026-09-29T12:26:52.039035+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,gpt-5-mini,COT_ZERO,"Step 1 — identify the issue: The statement reports a significant mismatch between quarterly applied surcharges and actual market prices.
+
+Step 2 — likely implications: Such a significant divergence implies pricing is not aligned with current market conditions, which can lead to revenue volatility, margin erosion (if surcharges are below market), customer disputes or loss of competitiveness (if above market), accounting/forecasting inaccuracies, and potential regulatory or contractual problems.
+
+Step 3 — directional assessment: The phrase gives no indication that the divergence is beneficial (e.g., intentionally capturing favorable spreads); the emphasis on a significant difference implies a problematic misalignment and increased financial risk.
+
+FINAL: negative",negative,parsed_final,False,74,484,320,558,2026-09-29T12:27:00.119867+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,gpt-5-mini,COT_FEW,"Step-by-step analysis:
+- The sentence states a factual condition: quarterly applied surcharges differ significantly from actual market prices.
+- It does not report a profit, loss, growth, or improvement—nor does it explicitly label the situation as good or bad.
+- While the discrepancy could imply pricing risk or potential issues, the statement itself is descriptive and lacks evaluative language or quantification of negative impact.
+
+FINAL: neutral",neutral,parsed_final,True,376,326,192,702,2026-09-29T12:27:04.733389+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,gpt-5-mini,DP_ZERO,negative,negative,parsed_exact,True,51,72,64,123,2026-09-29T12:27:06.476852+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,gpt-5-mini,DP_FEW,negative,negative,parsed_exact,True,343,69,0,412,2026-09-29T12:27:08.204464+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,gpt-5-mini,COT_ZERO,"Step 1 — Parse the sentence: it says that the ""adjustment to the fall in price level"" has been ""less effective.""
+
+Step 2 — Translate to financial meaning: a fall in the price level (deflation or decreasing prices) is generally an adverse economic development, and an adjustment being ""less effective"" means policy or market responses are failing to counter or correct that adverse development.
+
+Step 3 — Assess sentiment: describing a necessary adjustment as insufficient/ineffective conveys deterioration or weakness rather than stability or improvement.
+
+FINAL: negative",negative,parsed_final,True,77,362,192,439,2026-09-29T12:27:11.976945+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,gpt-5-mini,COT_FEW,"The statement indicates that the response to a falling price level has been weak/ineffective, which implies an adverse financial outcome or underperformance.
+
+FINAL: negative",negative,parsed_final,True,379,304,256,683,2026-09-29T12:27:14.855021+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,gpt-5-mini,DP_ZERO,negative,negative,parsed_exact,True,57,79,64,136,2026-09-29T12:27:16.288866+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,gpt-5-mini,DP_FEW,negative,negative,parsed_exact,True,349,88,64,437,2026-09-29T12:27:17.635680+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,gpt-5-mini,COT_ZERO,"Step-by-step analysis:
+- Previously there was an operating profit of EUR 2.7 mn.
+- Now there is an operating loss of EUR 0.9 mn.
+- That is a deterioration of EUR 3.6 mn in operating result and a change in sign from profit to loss.
+- A move from positive operating profit to an operating loss indicates weakened profitability and is a negative financial development.
+
+FINAL: negative",negative,parsed_final,True,83,291,192,374,2026-09-29T12:27:20.289417+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,gpt-5-mini,COT_FEW,"The company moved from an operating profit of EUR 2.7 mn to an operating loss of EUR 0.9 mn, which is a clear deterioration in operating performance.
+
+FINAL: negative",negative,parsed_final,True,385,186,128,571,2026-09-29T12:27:22.762653+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,gpt-5-mini,DP_ZERO,negative,negative,parsed_exact,True,55,80,64,135,2026-09-29T12:27:24.083968+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,gpt-5-mini,DP_FEW,negative,negative,parsed_exact,True,347,71,64,418,2026-09-29T12:27:25.413745+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,gpt-5-mini,COT_ZERO,"Step-by-step reasoning:
+- The statement reports a decrease in total traffic (revenue passenger kilometres) for Finnair by 8.7%.
+- Revenue passenger kilometres measure passenger volume and are directly linked to ticket revenue and capacity utilization for an airline.
+- A near 9% decline implies lower passenger demand or reduced operations, which typically leads to lower revenues and poorer financial performance unless offset by higher yields or cost reductions.
+- No positive or neutral offsetting information is provided in the statement.
+
+FINAL: negative",negative,parsed_final,True,81,360,192,441,2026-09-29T12:27:28.798708+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,gpt-5-mini,COT_FEW,"The statement reports an 8.7% decrease in Finnair's total traffic measured by revenue passenger kilometres (RPKs). RPKs are a primary demand indicator for airlines; a decline of this magnitude signals weaker passenger demand and deteriorating operational performance compared with the prior period. This is a negative financial development.
+
+FINAL: negative",negative,parsed_final,True,383,214,128,597,2026-09-29T12:27:31.038599+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,deepseek-flash,DP_ZERO,positive,positive,parsed_exact,True,92,39,37,131,2026-09-29T12:27:32.106859+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,deepseek-flash,DP_FEW,positive,positive,parsed_exact,True,385,36,34,421,2026-09-29T12:27:32.896628+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,deepseek-flash,COT_ZERO,"The statement reports that Bank of Åland’s net interest income increased from EUR 9.1 million to EUR 9.7 million in Q1 2010. An increase in net interest income is generally a positive financial development, indicating stronger core banking profitability.
+
+FINAL: positive",positive,parsed_final,True,122,133,74,255,2026-09-29T12:27:34.522036+00:00,
+fpb_0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,deepseek-flash,COT_FEW,"The statement reports an increase in net interest income from EUR 9.1 million to EUR 9.7 million, which indicates positive financial development.
+
+FINAL: positive",positive,parsed_final,True,425,128,93,553,2026-09-29T12:27:35.868295+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,deepseek-flash,DP_ZERO,positive,positive,parsed_exact,True,74,37,35,111,2026-09-29T12:27:36.786051+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,deepseek-flash,DP_FEW,positive,positive,parsed_exact,True,367,28,26,395,2026-09-29T12:27:37.503151+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,deepseek-flash,COT_ZERO,"Revenue growth of 14% to 43 million euros indicates a positive financial development, as increasing revenues generally signal stronger business performance.
+
+FINAL: positive",positive,parsed_final,True,104,124,93,228,2026-09-29T12:27:38.934847+00:00,
+fpb_0190,Revenues at the same time grew 14 percent to 43 million euros .,positive,deepseek-flash,COT_FEW,"The statement reports that revenues grew by 14 percent, which indicates a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,407,125,102,532,2026-09-29T12:27:40.261553+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,deepseek-flash,DP_ZERO,positive,positive,parsed_exact,True,76,19,17,95,2026-09-29T12:27:40.883074+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,deepseek-flash,DP_FEW,positive,positive,parsed_exact,True,369,39,37,408,2026-09-29T12:27:41.998944+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,deepseek-flash,COT_ZERO,"The statement expresses optimism about creating shareholder value and benefiting employees and customers, which indicates a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,106,111,85,217,2026-09-29T12:27:43.252715+00:00,
+fpb_0413,`` The combined activities will create value for shareholders and be good for our employees and customers .,positive,deepseek-flash,COT_FEW,"The statement expresses a favorable outlook, stating that the combined activities will create shareholder value and benefit employees and customers. This indicates positive financial and business sentiment.
+
+FINAL: positive",positive,parsed_final,True,409,133,98,542,2026-09-29T12:27:44.466250+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,False,83,75,73,158,2026-09-29T12:27:45.799562+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,False,376,148,146,524,2026-09-29T12:27:47.434581+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,deepseek-flash,COT_ZERO,"The statement announces the launch of a profitability program at a specific plant. While aiming to improve profitability can be viewed positively, the statement lacks details about expected financial benefits, costs, or the reason for the program. As a result, it does not clearly indicate a positive or negative financial development.
+
+FINAL: neutral",neutral,parsed_final,False,113,2002,1939,2115,2026-09-29T12:27:58.589293+00:00,
+fpb_0448,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,positive,deepseek-flash,COT_FEW,"The statement announces the launch of a profitability program, but it does not provide any concrete financial results, improvement figures, or explicit positive/negative impact. It is a factual corporate update.
+
+FINAL: neutral",neutral,parsed_final,False,416,3149,3107,3565,2026-09-29T12:29:01.145232+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,deepseek-flash,DP_ZERO,positive,positive,parsed_exact,True,76,34,32,110,2026-09-29T12:29:02.073625+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,deepseek-flash,DP_FEW,positive,positive,parsed_exact,True,369,42,40,411,2026-09-29T12:29:03.183213+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,deepseek-flash,COT_ZERO,"The statement indicates that operating profit increased substantially, from EUR 11.4 million to EUR 20.3 million. This represents improved profitability and is a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,106,84,44,190,2026-09-29T12:29:04.275281+00:00,
+fpb_0467,Operating profit improved to EUR 20.3 mn from EUR 11.4 mn .,positive,deepseek-flash,COT_FEW,"The statement indicates that operating profit increased significantly, from EUR 11.4 mn to EUR 20.3 mn. This represents a positive financial development.
+
+FINAL: positive",positive,parsed_final,True,409,108,72,517,2026-09-29T12:29:05.727578+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,66,37,35,103,2026-09-29T12:29:06.713372+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,359,31,29,390,2026-09-29T12:29:07.359690+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,deepseek-flash,COT_ZERO,"The statement is purely factual: it states the duration of an agreement’s validity. It does not indicate whether the agreement is beneficial, costly, profitable, or harmful. Without additional context about the agreement’s financial impact, the sentiment is neutral.
+
+FINAL: neutral",neutral,parsed_final,True,96,247,192,343,2026-09-29T12:29:09.682956+00:00,
+fpb_0602,The agreement is valid for four years .,neutral,deepseek-flash,COT_FEW,"The statement simply states the duration of an agreement. It does not indicate any gain, loss, growth, decline, or other positive/negative financial impact.
+
+FINAL: neutral",neutral,parsed_final,True,399,155,119,554,2026-09-29T12:29:11.258618+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,103,78,76,181,2026-09-29T12:29:12.148516+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,396,26,24,422,2026-09-29T12:29:12.887420+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,deepseek-flash,COT_ZERO,"The statement describes the Group’s operational assets and capacity, including its fleet, container capacity, and railway rolling stock. It does not indicate growth, decline, profitability, or any positive/negative financial change.
+
+FINAL: neutral",neutral,parsed_final,True,133,176,129,309,2026-09-29T12:29:14.507247+00:00,
+fpb_0616,"The Group owns and operates a fleet of more than 800dwt , while container capacity is 17,000 TEUs , and manages a diversified fleet of its own railway rolling stock of over 17,000 units .",neutral,deepseek-flash,COT_FEW,"The statement provides factual information about the company’s fleet size, container capacity, and railway rolling stock. It does not indicate any increase, decrease, profit, loss, or other positive or negative financial development.
+
+FINAL: neutral",neutral,parsed_final,True,436,194,147,630,2026-09-29T12:29:16.422646+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,81,62,60,143,2026-09-29T12:29:17.443942+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,374,32,30,406,2026-09-29T12:29:18.210538+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,deepseek-flash,COT_ZERO,FINAL: positive,positive,parsed_final,False,111,259,254,370,2026-09-29T12:29:20.153938+00:00,
+fpb_1065,The contract involves refurbishing the bathrooms of 189 units as well as re-plumbing their water and sewer pipes .,neutral,deepseek-flash,COT_FEW,"The statement describes the scope of a contract—refurbishing bathrooms and re-plumbing pipes for 189 units. It does not indicate any financial gain, loss, growth, or decline, nor does it provide financial performance figures. Therefore, it is purely informational.
+
+FINAL: neutral",neutral,parsed_final,True,414,158,100,572,2026-09-29T12:29:21.737146+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,82,57,55,139,2026-09-29T12:29:22.820850+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,375,53,51,428,2026-09-29T12:29:23.805689+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,deepseek-flash,COT_ZERO,"The statement only reports the amount invested in product development without any comparison, trend, or context indicating whether this is better or worse than expected. Therefore, it is a neutral financial disclosure.
+
+FINAL: neutral",neutral,parsed_final,True,112,150,108,262,2026-09-29T12:29:25.345275+00:00,
+fpb_1269,Investments in product development stood at 6.0 mln euro ( $ 8.8 mln ) .,neutral,deepseek-flash,COT_FEW,"The statement only reports a numerical amount for product development investments without indicating whether it increased, decreased, or affected performance positively or negatively. Therefore, it is neutral.
+
+FINAL: neutral",neutral,parsed_final,True,415,167,130,582,2026-09-29T12:29:26.937554+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,71,51,49,122,2026-09-29T12:29:28.214064+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,364,57,55,421,2026-09-29T12:29:29.162680+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,deepseek-flash,COT_ZERO,"The statement indicates that ISMS is not disclosing its financial results, which suggests a lack of transparency. In a financial context, non-disclosure is generally viewed negatively because it prevents investors and stakeholders from assessing the company’s performance and risks.
+
+FINAL: negative",negative,parsed_final,False,101,281,227,382,2026-09-29T12:29:31.253038+00:00,
+fpb_1270,"ISMS does not disclose its financial results , the daily said .",neutral,deepseek-flash,COT_FEW,"The statement only reports that ISMS does not disclose its financial results. It does not indicate any actual positive or negative financial performance, so the sentiment is neutral.
+
+FINAL: neutral",neutral,parsed_final,True,404,172,135,576,2026-09-29T12:29:32.921831+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,69,40,38,109,2026-09-29T12:29:34.167401+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,362,39,37,401,2026-09-29T12:29:34.901109+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,deepseek-flash,COT_ZERO,"The statement simply reports a capacity figure without indicating whether it is an increase, decrease, or compared to expectations. Therefore, it is neutral.
+
+FINAL: neutral",neutral,parsed_final,True,99,140,107,239,2026-09-29T12:29:36.006014+00:00,
+fpb_1276,"Its annual capacity is some 10,000 MW .",neutral,deepseek-flash,COT_FEW,FINAL: neutral,neutral,parsed_final,True,402,127,122,529,2026-09-29T12:29:37.521037+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,82,52,50,134,2026-09-29T12:29:38.781402+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,375,57,55,432,2026-09-29T12:29:39.670690+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,deepseek-flash,COT_ZERO,"The statement simply describes a pricing structure: one price category applies to calls on the preferred operator’s network, and another applies to calls on other operators’ networks. It does not indicate any financial improvement, decline, risk, opportunity, or performance outcome.
+
+FINAL: neutral",neutral,parsed_final,True,112,121,65,233,2026-09-29T12:29:40.928675+00:00,
+fpb_1323,"One price category is for calls on the preferred operator 's network , and another for calls on other operators ' networks .",neutral,deepseek-flash,COT_FEW,"The statement is purely descriptive, explaining two pricing categories for calls on different networks. It does not indicate any increase, decrease, profit, loss, or other financial performance development.
+
+FINAL: neutral",neutral,parsed_final,True,415,119,79,534,2026-09-29T12:29:42.244679+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,77,52,50,129,2026-09-29T12:29:43.446806+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,370,60,58,430,2026-09-29T12:29:44.429867+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,deepseek-flash,COT_ZERO,"The statement simply reports a projected total number of joint branch offices by the end of 2006. It does not indicate whether this number is higher or lower than previous figures, nor whether it reflects growth, decline, or financial success.
+
+FINAL: neutral",neutral,parsed_final,True,107,170,118,277,2026-09-29T12:29:45.799249+00:00,
+fpb_1608,"By the end of 2006 , the number of joint branch offices will total 170 .",neutral,deepseek-flash,COT_FEW,"The statement provides a factual projection about the number of joint branch offices by the end of 2006. It does not indicate whether this number represents growth, decline, profitability, or any positive or negative financial impact compared with previous figures.
+
+FINAL: neutral",neutral,parsed_final,True,410,138,86,548,2026-09-29T12:29:47.268265+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,81,109,107,190,2026-09-29T12:29:48.591093+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,374,123,121,497,2026-09-29T12:29:49.725260+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,deepseek-flash,COT_ZERO,"The statement indicates no expected improvement or deterioration—performance is expected to stay the same. This represents neither a positive nor negative development.
+
+FINAL: neutral",neutral,parsed_final,True,111,411,380,522,2026-09-29T12:29:52.349270+00:00,
+fpb_1703,"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",neutral,deepseek-flash,COT_FEW,FINAL: neutral,neutral,parsed_final,True,414,328,323,742,2026-09-29T12:29:54.605999+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,deepseek-flash,DP_ZERO,negative,negative,parsed_exact,False,78,305,303,383,2026-09-29T12:29:56.960933+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,371,66,64,437,2026-09-29T12:29:57.956465+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,deepseek-flash,COT_ZERO,"The statement describes a process where the customer is logged into a site without their knowledge. This suggests a potential security, privacy, or consent issue, which is generally viewed as a negative development in a financial or customer-trust context.
+
+FINAL: negative",negative,parsed_final,False,108,327,276,435,2026-09-29T12:30:00.348231+00:00,
+fpb_1759,"The customer is then forwarded to the site , and unknown to him logged in with the first number .",neutral,deepseek-flash,COT_FEW,"The statement describes a technical or procedural action involving customer redirection and login. It does not indicate any financial gain, loss, growth, or decline, so the sentiment is neutral.
+
+FINAL: neutral",neutral,parsed_final,True,411,166,125,577,2026-09-29T12:30:02.086088+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,77,26,24,103,2026-09-29T12:30:03.317732+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,370,26,24,396,2026-09-29T12:30:04.363155+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,deepseek-flash,COT_ZERO,"The statement is purely descriptive and does not indicate any financial gain, loss, growth, or decline.
+
+FINAL: neutral",neutral,parsed_final,True,107,101,76,208,2026-09-29T12:30:05.554313+00:00,
+fpb_1969,"The cosmetics collection includes an eye shadow , face powder , lip gloss , mascara and accessories .",neutral,deepseek-flash,COT_FEW,"The statement simply describes the contents of a cosmetics collection. It does not mention revenue, profit, growth, decline, or any financial performance indicator.
+
+FINAL: neutral",neutral,parsed_final,True,410,105,71,515,2026-09-29T12:30:06.941022+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,deepseek-flash,DP_ZERO,negative,negative,parsed_exact,False,73,330,328,403,2026-09-29T12:30:09.562777+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,366,98,96,464,2026-09-29T12:30:10.999137+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,deepseek-flash,COT_ZERO,"The statement points to a significant mismatch between applied surcharges and actual market prices. In a financial context, this suggests potential mispricing, cost/revenue misalignment, or risk of disputes, which is generally unfavorable.
+
+FINAL: negative",negative,parsed_final,False,103,727,677,830,2026-09-29T12:30:15.458684+00:00,
+fpb_1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,deepseek-flash,COT_FEW,"The statement identifies a significant difference between applied surcharges and actual market prices, but it does not indicate whether this difference benefits or harms the company financially. Without a clear positive or negative direction, it is best classified as neutral.
+
+FINAL: neutral",neutral,parsed_final,True,406,669,618,1075,2026-09-29T12:30:19.498903+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,deepseek-flash,DP_ZERO,negative,negative,parsed_exact,True,75,55,53,130,2026-09-29T12:30:20.363265+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,deepseek-flash,DP_FEW,negative,negative,parsed_exact,True,368,47,45,415,2026-09-29T12:30:21.540370+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,deepseek-flash,COT_ZERO,"The statement suggests that efforts to address a falling price level have been ineffective, which signals economic or policy weakness. This is a negative financial development.
+
+FINAL: negative",negative,parsed_final,True,105,292,258,397,2026-09-29T12:30:23.690965+00:00,
+fpb_2072,"`` Adjustment to the fall in price level , in contrast , has been less effective .",negative,deepseek-flash,COT_FEW,"The statement indicates that an adjustment process has been “less effective,” which implies an unfavorable or weak outcome. In a financial context, this suggests a negative development rather than a neutral or positive one.
+
+FINAL: negative",negative,parsed_final,True,408,255,211,663,2026-09-29T12:30:25.750762+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,deepseek-flash,DP_ZERO,negative,negative,parsed_exact,True,81,55,53,136,2026-09-29T12:30:26.874435+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,deepseek-flash,DP_FEW,negative,negative,parsed_exact,True,374,44,42,418,2026-09-29T12:30:28.197435+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,deepseek-flash,COT_ZERO,"The statement reports an operating loss of EUR 0.9 million, compared with a profit of EUR 2.7 million previously. This represents a decline from profitability to a loss, indicating negative financial development.
+
+FINAL: negative",negative,parsed_final,True,111,170,123,281,2026-09-29T12:30:29.736498+00:00,
+fpb_2094,"Operating loss totalled EUR 0.9 mn , down from a profit of EUR 2.7 mn .",negative,deepseek-flash,COT_FEW,"The statement reports a shift from a profit of EUR 2.7 million to an operating loss of EUR 0.9 million. This indicates deteriorating financial performance.
+
+FINAL: negative",negative,parsed_final,True,414,153,115,567,2026-09-29T12:30:31.249392+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,deepseek-flash,DP_ZERO,negative,negative,parsed_exact,True,78,36,34,114,2026-09-29T12:30:31.995766+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,deepseek-flash,DP_FEW,negative,negative,parsed_exact,True,371,42,40,413,2026-09-29T12:30:33.222116+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,deepseek-flash,COT_ZERO,"A decrease in total traffic, measured by revenue passenger kilometres (RPK), indicates lower passenger demand and weaker operating performance for an airline. Therefore, this is a negative financial development.
+
+FINAL: negative",negative,parsed_final,True,108,152,111,260,2026-09-29T12:30:34.713704+00:00,
+fpb_2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,deepseek-flash,COT_FEW,"The statement reports a decrease in Finnair’s total traffic by 8.7%, which indicates a decline in business activity. This is a negative development.
+
+FINAL: negative",negative,parsed_final,True,411,102,65,513,2026-09-29T12:30:35.981405+00:00,

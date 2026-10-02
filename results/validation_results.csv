@@ -1,0 +1,21 @@
+id,sentence,true_label,model,prompt_condition,raw_response,predicted_label,parse_status,correct,input_tokens,output_tokens,reasoning_tokens,total_tokens,timestamp_utc,error
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,gpt-5-mini,DP_ZERO,neutral,neutral,parsed_exact,True,59,99,64,158,2026-09-29T09:39:53.300110+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,gpt-5-mini,DP_FEW,neutral,neutral,parsed_exact,True,351,95,64,446,2026-09-29T09:39:57.550654+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,gpt-5-mini,COT_ZERO,"Step-by-step analysis:
+- ""the company is growing"" in Russia signals expansion and increased business activity in that market — this is a positive financial development.
+- ""has no plans to move all production to Russia"" indicates the company is avoiding concentration risk and maintaining diversified production locations; this is a cautious but prudent (neutral-to-positive) position.
+- Combining both points: growth in a market is favorable, and the decision not to concentrate production entirely in one country reduces risk exposure, which supports a positive outlook overall.
+
+FINAL: positive",positive,parsed_final,False,85,370,256,455,2026-09-29T09:39:59.267458+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,gpt-5-mini,COT_FEW,"Analysis:
+- The sentence is a factual statement about corporate plans and geographic growth: the company is growing in Russia but does not intend to move all production there.
+- It contains no explicit financial metrics (profits, revenue, margins) and no clear positive or negative judgment on the company’s overall financial position.
+- Mentioning growth in Russia is mildly positive, but the main message is about a production-location decision (reassurance/strategy), making the tone informational rather than evaluative.
+
+FINAL: neutral",neutral,parsed_final,True,387,282,128,669,2026-09-29T09:40:03.136877+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,deepseek-flash,DP_ZERO,neutral,neutral,parsed_exact,True,83,123,121,206,2026-09-29T09:40:06.831620+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,deepseek-flash,DP_FEW,neutral,neutral,parsed_exact,True,376,141,139,517,2026-09-29T09:40:08.587930+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,deepseek-flash,COT_ZERO,"The statement is mainly factual about the company’s production plans and mentions growth in Russia. It does not clearly indicate a positive or negative financial development overall, so it is best classified as neutral.
+
+FINAL: neutral",neutral,parsed_final,True,113,1608,1564,1721,2026-09-29T09:40:10.160776+00:00,
+fpb_0001,"According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",neutral,deepseek-flash,COT_FEW,FINAL: neutral,neutral,parsed_final,True,416,1933,1928,2349,2026-09-29T09:40:18.621110+00:00,
